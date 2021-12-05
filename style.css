@@ -7,9 +7,6 @@
 body {
   height: 300px;
   width: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container {
@@ -52,4 +49,25 @@ body {
 .guide {
   font-size: 16px;
   margin: 10px 0;
+}
+
+.github {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+i {
+  font-size: 1.3rem;
+  margin: 0 5px;
+}
+
+.github:hover {
+  color: #333;
+}
+
+#message:hover {
+  cursor: copy;
+  color: #333;
 }

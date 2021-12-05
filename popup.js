@@ -67,6 +67,18 @@ function applyRandomColor() {
   updateColorMessage()
 }
 
+// click to #message copy to clipboard
+message.addEventListener('click', function () {
+  // click to #message copy to clipboard
+  let text = message.innerText
+  let textArea = document.createElement('textarea')
+  textArea.value = text
+  document.body.appendChild(textArea)
+  textArea.select()
+  document.execCommand('copy')
+  textArea.remove()
+})
+
 // RUN AT LOAD
 updateColorMessage()
 applyRandomColor()
