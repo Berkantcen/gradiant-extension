@@ -71,3 +71,8 @@ i {
   cursor: copy;
   color: #333;
 }
+
+.random {
+  user-select: none;
+  color: #333;
+}
